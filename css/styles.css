@@ -1,6 +1,99 @@
-.rosarivo-regular {
+/*   RESET   */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*,*::before,*:after{
+    box-sizing: inherit;
+}
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+/*   BASE   */
+
+Body{
     font-family: "Rosarivo", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+
+    font-size: 3.8rem;
+}
+
+h2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+
+    font-size: 3.6rem;
+}
+
+h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+
+    font-size: 2.7rem;
+}
+
+h4{
+    font-family: "Trirong", serif;
+    font-weight: 600;
+    font-style: normal;
+
+    font-size: 2.0rem;
+}
+
+h5{
+    font-family: "Trirong", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1.8rem;
+}
+
+p.sous-titre{
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1.6rem;
+}
+
+p{
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1.8rem;
+}
+
+
+/*   MISE EN PAGE   */
+
+
+
+
+/*   MODULES   */
+
+
+
+
+/*   AIDE MISE EN PAGE   */
+
+
