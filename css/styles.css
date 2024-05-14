@@ -88,6 +88,7 @@ p{
 
 
 
+/*{}*/
 
 /*   MISE EN PAGE   */
 
@@ -102,9 +103,24 @@ header{
     display: flex;
 }
 
+header ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
+    gap: 72px;
+}
 
+a{
+    font-size: 1.6rem;
+}
 
+header li{
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+}
 
 
 /*   AIDE MISE EN PAGE   */
