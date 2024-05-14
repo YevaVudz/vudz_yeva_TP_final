@@ -22,7 +22,10 @@ Body{
     font-family: "Rosarivo", cursive;
     font-weight: 400;
     font-style: normal;
+
+    background-color: #FFEDEE;
 }
+
 
 h1{
     font-family: "Playfair Display", serif;
@@ -92,6 +95,14 @@ p{
 
 
 /*   MODULES   */
+
+header{
+    background-color: #C06B6B;
+
+    display: flex;
+}
+
+
 
 
 
