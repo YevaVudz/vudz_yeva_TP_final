@@ -106,6 +106,7 @@ header{
     background-color: #C06B6B;
 
     height: 60px;
+    padding-right: 45px;
 }
 
 header ul{
@@ -114,6 +115,8 @@ header ul{
     text-align: center;
 
     gap: 72px;
+
+    padding-left: 0;
 }
 
 header li{
@@ -167,23 +170,22 @@ section.inscription{
     text-align: center;
 }
 
-.texte_inscription{
-    width: 586px;
-
-    margin-left: 430px;
-
-}
-
 .texte_inscription h2{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
 
     margin-top: auto;
     margin-bottom: 33px;
     padding-top: 60px;
-    
+
 }
 
 .texte_inscription p{
     padding-bottom: 57px;
+
+    margin: 0 430px 0 430px;
 }
 
 .bouton{
@@ -193,7 +195,101 @@ section.inscription{
     padding: 10px 30px 7px 30px;
 
     border: 1px solid #C06B6B;
+
+    text-align: center;
 }
+
+/* section équipe */
+
+section.équipe{
+    background-color: white;
+
+    height: 696px;
+}
+
+.équipe h2{
+    margin-top: auto;
+
+    padding-top: 55px;
+}
+
+.texte_equipe{
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.texte_equipe p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    margin: 0 391px 0 391px;
+}
+
+.équipe img{
+    width: 363px;
+    height: 363px;
+
+    border-radius: 50%;
+
+    justify-content: space-around;
+}
+
+.employées{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+
+    gap: 115px;
+
+}
+
+.employées h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* section produits */
+
+.texte_produits h2 p{
+    width: 683px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.texte_produits h2{
+    text-align: center;
+}
+
+.texte_produits p{
+    text-align: center;
+    margin: 0 378px 48px 378px;
+}
+
+.texte_produits img{
+    background-color: white;
+}
+
+.filtres{
+    display: flex;
+    gap: 50px;
+
+    text-transform: uppercase;
+}
+
+.filtres a{
+    padding: 8px 52px 8px 52px;
+    color: white;
+    background-color: #FFB8B8;
+}
+
+
+
+
 /*   AIDE MISE EN PAGE   */
 
 
