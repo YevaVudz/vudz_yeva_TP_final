@@ -287,9 +287,42 @@ section.équipe{
     background-color: #FFB8B8;
 }
 
+.parfums_produits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
+    margin-top: 50px;
+}
 
+.info_parfum{
+    margin-right: 85px;
 
+    text-align: center;
+    line-height: 1px;
+}
+
+.parfum01, .parfum02, .parfum03, .parfum04, .parfum05, .parfum06, .parfum07, .parfum08{
+    margin-bottom: 39px;
+}
+
+.produits a{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bouton2{
+    color: white;
+    background-color: #FFB8B8;
+
+    padding: 13px 39px 10px 39px;
+    margin: 0 598px 0 598px;
+    border: 1px solid #C06B6B;
+
+    text-align: center;
+
+    text-transform: uppercase;
+}
 /*   AIDE MISE EN PAGE   */
 
 
