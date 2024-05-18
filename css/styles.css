@@ -11,7 +11,7 @@ html{
 }
 
 .wrapper{
-    width: 1440px;
+    width: 1316px;
     margin: 0 auto;
 }
 
@@ -263,6 +263,7 @@ section.équipe{
 
 .texte_produits h2{
     text-align: center;
+    margin-top: 0;
 }
 
 .texte_produits p{
@@ -292,10 +293,10 @@ section.équipe{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
     margin-top: 50px;
+    column-gap: 72px;
 }
 
 .info_parfum{
-    margin-right: 85px;
 
     text-align: center;
     line-height: 1px;
@@ -303,6 +304,8 @@ section.équipe{
 
 .parfum01, .parfum02, .parfum03, .parfum04, .parfum05, .parfum06, .parfum07, .parfum08{
     margin-bottom: 39px;
+    width: 275px;
+
 }
 
 .produits a{
@@ -316,13 +319,59 @@ section.équipe{
     background-color: #FFB8B8;
 
     padding: 13px 39px 10px 39px;
-    margin: 0 598px 0 598px;
+    margin: 0 530px 0 530px;
     border: 1px solid #C06B6B;
 
     text-align: center;
 
     text-transform: uppercase;
 }
+
+a.bouton2{
+    margin-top: 30px;
+}
+
+section.produits{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    height: 1232px;
+}
+
+
+/* section contact */
+
+section.contact{
+    border: 50px solid #C06B6B;
+    height: 955.28px;
+    background-color: #E8CCC4;
+}
+
+
+.contact img{
+    float: left;
+}
+
+
+.contact h2{
+    margin-top: 62px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.infos_contact{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
 /*   AIDE MISE EN PAGE   */
 
 
