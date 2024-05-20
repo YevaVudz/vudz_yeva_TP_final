@@ -11,7 +11,7 @@ html{
 }
 
 .wrapper{
-    width: 1316px;
+    width: 1319px;
     margin: 0 auto;
 }
 
@@ -348,11 +348,6 @@ section.contact{
 }
 
 
-.contact img{
-    float: left;
-}
-
-
 .contact h2{
     margin-top: 62px;
 
@@ -360,9 +355,52 @@ section.contact{
     text-transform: uppercase;
 }
 
-.infos_contact{
-    align-items: center;
+
+
+.envoyer_courriel{
+
+    padding: 13px 39px 10px 39px;
+    margin: 0 530px 0 530px;
+
+    margin-top: 30px;
+
+    border: 1px solid #C06B6B;
+    color: #C06B6B;
+    font-size: 2.4rem;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-between;
+
+   
+    
 }
+
+
+.infos_contact{
+    display: flex;
+    align-items: center;
+    
+
+    column-gap: 79px;
+}
+
+.infos_contact_texte p{
+    margin-bottom: 40px;
+}
+
+.infos_contact .location{
+    margin-bottom: 40px;
+}
+
+
+.infos_contact_texte h4{
+    margin: 0;
+}
+
+
 
 
 
