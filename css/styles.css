@@ -94,21 +94,6 @@ a{
 /*{}  {}  {}  */
 
 /*   MISE EN PAGE   */
-
-
-
-
-/*   MODULES   */
-
-/* header */
-
-header{
-    background-color: #C06B6B;
-
-    height: 60px;
-    padding-right: 45px;
-}
-
 header ul{
     display: flex;
     justify-content: center;
@@ -123,6 +108,19 @@ header li{
     display: flex;
     align-items: center;
 }
+
+
+/*   MODULES   */
+
+/* header */
+
+header{
+    background-color: #C06B6B;
+
+    height: 60px;
+    padding-right: 45px;
+}
+
 
 header a{
     color: black;
@@ -307,9 +305,6 @@ section.équipe{
     width: 275px;
 }
 
-.produits img{
-
-}
 
 .parfum{
     background-color: white;
@@ -423,8 +418,24 @@ section.contact{
 
 
 
+/* Listes des articles */
 
+.parfum09, .parfum10, .parfum11, .parfum12, .parfum13, .parfum14{
+    margin-bottom: 39px;
+    width: 373px; 
+}
 
+.parfums_produits_page2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-top: 60px;
+    column-gap: 103px;
+}
+
+.parfum11 .parfum{
+    padding-left: 100px;
+}
 
 
 
