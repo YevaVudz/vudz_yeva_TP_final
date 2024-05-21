@@ -305,7 +305,19 @@ section.équipe{
 .parfum01, .parfum02, .parfum03, .parfum04, .parfum05, .parfum06, .parfum07, .parfum08{
     margin-bottom: 39px;
     width: 275px;
+}
 
+.produits img{
+
+}
+
+.parfum{
+    background-color: white;
+}
+
+.parfum:hover{
+    background-color:rgba(192, 107, 107, 0.50);
+    border: 1px solid #C06B6B;
 }
 
 .produits a{
@@ -374,8 +386,6 @@ section.contact{
     display: flex;
     justify-content: space-between;
 
-   
-    
 }
 
 
@@ -400,6 +410,16 @@ section.contact{
     margin: 0;
 }
 
+.reseaux_sociaux{
+    margin-top: 20px;
+}
+
+.material-symbols-outlined{
+    font-size: 5.0rem;
+    font-weight: 700;
+
+    margin-right: 10px;
+}
 
 
 
