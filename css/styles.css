@@ -26,6 +26,10 @@ Body{
     background-color: #FFEDEE;
 }
 
+.fiche-article{
+    background-color: white;
+}
+
 
 h1{
     font-family: "Playfair Display", serif;
@@ -525,6 +529,7 @@ h4.prix{
 .rosee_matinale{
     background-color: white;
     margin: auto;
+    margin-bottom: 71px;
 }
 
 .description_details{
@@ -533,11 +538,16 @@ h4.prix{
     float: left;
 }
 
+.text_parfum12{
+    margin-top: 62px;
+}
+
 .text_parfum12 h1{
     text-align: center;
 
     color: #C06B6B;
     margin-bottom: 0;
+    margin-top: 0;
     
 
 }
@@ -554,6 +564,10 @@ h4.prix{
     margin-top: 14px;
 }
 
+.text_parfum12 h5{
+    line-height:25px;
+}
+
 .parfum12_article img{
     height: 720px;
     width: 720px;
@@ -566,10 +580,6 @@ h4.prix{
 }
 
 
-.details_parfum12{
-    
-
-}
 
 .details_parfum12 {
     display: flex;
@@ -581,7 +591,7 @@ h4.prix{
     border-radius: 43px;
 
 
-    margin: 71px 48px 71px 48px;
+    margin: 71px 48px 0px 48px;
     padding: 50px 77px 28px 99px;
 }
 
@@ -627,10 +637,14 @@ h4.prix{
 
 .parfums_recommendations h3{
     text-align: center;
+
+    margin-top: auto;
 }
 
 .parfums_recommendations{
     background-color: #FFB8B8;
+
+    padding-top: 37px;
 }
 
 
