@@ -202,6 +202,8 @@ section.inscription{
 section.équipe{
     background-color: white;
 
+    
+
     height: 696px;
 }
 
@@ -518,7 +520,134 @@ h4.prix{
     padding-left: 100px;
 }
 
+/* section fiche d'articles */
 
+.rosee_matinale{
+    background-color: white;
+    margin: auto;
+}
+
+.description_details{
+    display: flex;
+
+    float: left;
+}
+
+.text_parfum12 h1{
+    text-align: center;
+
+    color: #C06B6B;
+    margin-bottom: 0;
+    
+
+}
+
+.text_parfum12 h4{
+    text-align: center;
+    margin-top: 14px;
+
+    margin-bottom: 0;
+}
+
+.text_parfum12 h3{
+    text-align: center;
+    margin-top: 14px;
+}
+
+.parfum12_article img{
+    height: 720px;
+    width: 720px;
+}
+
+.parfum12_article {
+    height: 720px;
+    width: 600px;
+
+}
+
+
+.details_parfum12{
+    
+
+}
+
+.details_parfum12 {
+    display: flex;
+    justify-content: center;
+
+    column-gap: 55px;
+
+    background-color: #FFEDEE;
+    border-radius: 43px;
+
+
+    margin: 71px 48px 71px 48px;
+    padding: 50px 77px 28px 99px;
+}
+
+
+.details_parfum12 h4{
+    margin-top: 0;
+}
+
+.type_parfum{
+    display: flex;
+}
+
+.type_parfum h4{
+    margin-right: 10px;
+}
+
+.type_parfum_et_achat .bouton{
+    padding: 24px 112px 24px 112px;
+
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    
+}
+
+.type_parfum_et_achat{
+    display: grid;
+}
+
+.type_parfum_et_achat p{
+    margin-top: 0px;
+    
+}
+
+
+
+
+.recommendations{
+    display: flex;
+    justify-content: space-between;
+
+    column-gap: 74px;
+}
+
+.parfums_recommendations h3{
+    text-align: center;
+}
+
+.parfums_recommendations{
+    background-color: #FFB8B8;
+}
+
+
+.recommendations .parfum{
+    margin-bottom: 39px;
+    width: 373px;
+}
+
+.recommendations img{
+    width: 100%;
+    min-width: 373px;
+}
+
+.recommendations .parfum13,.recommendations .parfum07,.recommendations .parfum04{
+    margin-bottom: 39px;
+    width: 373px; 
+}
 
 
 
