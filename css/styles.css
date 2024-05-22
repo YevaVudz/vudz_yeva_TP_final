@@ -271,6 +271,7 @@ section.équipe{
 
 .texte_produits img{
     background-color: white;
+    
 }
 
 .filtres{
@@ -302,7 +303,9 @@ section.équipe{
 
 .parfum01, .parfum02, .parfum03, .parfum04, .parfum05, .parfum06, .parfum07, .parfum08{
     margin-bottom: 39px;
-    width: 275px;
+
+    min-width: 275px;
+    width:100% ;
 }
 
 
@@ -311,6 +314,7 @@ section.équipe{
 }
 
 .parfum:hover{
+    
     background-color:rgba(192, 107, 107, 0.50);
     border: 1px solid #C06B6B;
 }
@@ -353,6 +357,13 @@ section.contact{
     height: 955.28px;
     background-color: #E8CCC4;
 }
+
+.contact ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
 
 
 .contact h2{
@@ -416,9 +427,79 @@ section.contact{
     margin-right: 10px;
 }
 
+footer{
+    height: 124px;
+    background-color: #FEEAC6;
+
+    
+}
+
+.footer{
+    font-size: 1.6rem;
+    margin: 0;
+
+    padding-top: 51px;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer span{
+    padding-left: 3px;
+    padding-top: 2px;
+
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .material-symbols-outlined{
+    margin-top: 51px;
+
+    
+}
+
 
 
 /* Listes des articles */
+
+
+.texte_article img{
+    width: 100%;
+    min-width: 710px;
+}
+
+.texte_article{
+    display: flex;
+    align-items: center;
+    column-gap: 61px;
+
+    margin-top: 61px;
+}
+
+.info_parfum2{
+    text-align: center;
+}
+
+.info_parfum2 h3{
+    text-align: left;
+
+    line-height: 1.6;
+    height: 390px;
+
+}
+
+h4.prix{
+    margin-bottom: 70px;
+}
 
 .parfum09, .parfum10, .parfum11, .parfum12, .parfum13, .parfum14{
     margin-bottom: 39px;
