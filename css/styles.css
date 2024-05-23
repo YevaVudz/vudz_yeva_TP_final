@@ -4,6 +4,7 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
     scroll-behavior: smooth;
+
 }
 
 *,*::before,*:after{
@@ -24,6 +25,8 @@ Body{
     font-style: normal;
 
     background-color: #FFEDEE;
+
+    
 }
 
 .fiche-article{
@@ -133,9 +136,14 @@ header a{
     text-transform: uppercase;
 }
 
+header a:hover{
+    color: #FFB8B8;
+}
+
 nav ul{
     margin: auto;
 }
+
 
 /* hero */
 
@@ -144,6 +152,7 @@ nav ul{
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .boite{
@@ -199,6 +208,13 @@ section.inscription{
     border: 1px solid #C06B6B;
 
     text-align: center;
+}
+
+.bouton:hover{
+    color: white;
+    background-color:#C06B6B ;
+
+    border: 1px solid#FFB8B8 ;
 }
 
 /* section équipe */
@@ -287,6 +303,10 @@ section.équipe{
     text-transform: uppercase;
 }
 
+.filtres a:hover{
+    background-color: #C06B6B;
+}
+
 .filtres a{
     padding: 8px 52px 8px 52px;
     color: white;
@@ -317,6 +337,7 @@ section.équipe{
 
 .parfum{
     background-color: white;
+    border: 1px solid white;
 }
 
 .parfum:hover{
@@ -342,6 +363,11 @@ section.équipe{
     text-align: center;
 
     text-transform: uppercase;
+}
+
+.bouton2:hover{
+    background-color: #C06B6B;
+    border: 1px solid #FFB8B8;
 }
 
 a.bouton2{
@@ -398,6 +424,11 @@ section.contact{
     display: flex;
     justify-content: space-between;
 
+}
+
+.envoyer_courriel:hover{
+    color: white;
+    border: 1px solid white;
 }
 
 
@@ -663,8 +694,66 @@ h4.prix{
     width: 373px; 
 }
 
+.bouton4{
+
+    margin: 30px  400px 30px 400px;
+    color: #666666;
+    background-color: white;
+    padding: 10px 30px 7px 0px;
+    border: 1px solid #666666;
+    text-align: center;
+
+    padding: 24px 112px 24px 112px;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+}
+
+.bouton4 a{
+    color: #666666;
+}
+
 
 
 /*   AIDE MISE EN PAGE   */
+
+
+.équipe_photos img .zoom{
+    width: 726px;
+    height: 726px;
+
+    cursor: pointer;
+
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+
+    border-radius: 10px;
+
+
+}
+
+div.modale{
+    position: fixed;
+
+    top: 0px;
+    left: 0px;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 999;
+
+    background-color: rgba(0, 0, 0, 0.80);
+
+    justify-content: center;
+    align-content: center;
+
+    display: none;
+
+}
+
+.modale.visible{
+    display: flex;
+}
+
 
 

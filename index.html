@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="haut">
         <div class="wrapper">
             <nav>
                 <ul>
@@ -44,11 +44,11 @@
 
                     <li><a href="liste-articles.html">Les offres</a></li>
 
-                    <img src="Images/logo_TP_final.png." alt="OdeurLuxe">
+                    <img src="../web2-final/Images/logo_TP_final.png" alt="OdeurLuxe">
 
                     <li><a href="index.html#équipe">Équipe</a></li>
                     
-                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -76,6 +76,7 @@
             
         </div>
     </section>
+    
     <section class="équipe" id="équipe">
         <div class="wrapper">
             <div class="texte_equipe">
@@ -91,8 +92,13 @@
                 <div class="employées">
 
                     <div class="emma_laurent">
-
-                        <img src="../web2-final/Images/photo_femme01.png" alt="Emma Laurent">
+                        
+                            
+                        <span class="bouton_image">
+                            <img src="../web2-final/Images/photo_femme01.png" alt="Emma Laurent">
+                        </span> 
+                            
+                        
                         <h3>Emma Laurent</h3>
 
                         <p>Directrice Marketing</p>
@@ -101,7 +107,9 @@
 
                     <div class="emilie_dupuis">
 
-                        <img src="../web2-final/Images/photo_femme_ellipse02.png" alt="Émilie Dupuis">
+                        <span class="bouton_image">
+                            <img src="../web2-final/Images/photo_femme_ellipse02.png" alt="Émilie Dupuis">
+                        </span>
                         <h3>Émilie Dupuis</h3>
 
                         <p>Parfumeuse en chef</p>
@@ -110,7 +118,9 @@
 
                     <div class="marie_dupont">
 
-                        <img src="../web2-final/Images/photo_femme_ellipse03.png" alt="Marie Dupont">
+                        <span class="bouton_image">
+                            <img src="../web2-final/Images/photo_femme_ellipse03.png" alt="Marie Dupont">
+                        </span>
                         <h3>Marie Dupont</h3>
 
                         <p>Spécialiste de la Qualité</p>
@@ -238,7 +248,7 @@
 
                 
             </div>
-            <a href="#" class="bouton2">Voir tous les produits</a>
+            <a href="liste-articles.html" class="bouton2">Voir tous les produits</a>
     </div>     
     </section>
     <section class="contact" id="contact">
@@ -285,17 +295,27 @@
         </div>
         
     </section>
+
+    
+
+    
     
     
     <footer>
         <div class="wrapper">
             <p class="footer">© 2024 TIM. Tous droits réservés.</p>
+            <a class="haut" href="#haut">
             <span class="material-symbols-outlined">
                 arrow_upward
             </span>
+        </a>
         </div>
         
     </footer>
+
+
+    <div class="modale"></div>
+
 
 </body>
 
